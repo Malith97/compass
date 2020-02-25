@@ -16,6 +16,7 @@
         android:layout_centerHorizontal="true"
         android:scaleType="centerInside"/>
 
+
     <TextView
         android:id="@+id/tv_degree"
         android:layout_width="wrap_content"
@@ -24,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/g_light"
         android:textSize="75sp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="85dp"
         android:textColor="@color/white"
         android:text="0"/>
 
@@ -35,10 +36,75 @@
         android:layout_toRightOf="@+id/tv_degree"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="85dp"
         android:textSize="75sp"
         android:textColor="@color/white"
         android:fontFamily="@font/g_light"
         android:text="°"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_degree"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/g_light"
+            android:text="6.8195°"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_degree"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/g_light"
+            android:layout_marginLeft="3sp"
+            android:text="N"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_degree"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/g_light"
+            android:layout_marginLeft="12sp"
+            android:text="79.8801°"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_degree"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/g_light"
+            android:layout_marginLeft="3sp"
+            android:text="W"/>
+
+
+    </LinearLayout>
+
+
+
+
 
 </RelativeLayout>
